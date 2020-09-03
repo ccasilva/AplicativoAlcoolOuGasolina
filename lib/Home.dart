@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
 
       if( (precoAlcool / precoGasolina) >= 0.7 ){
         setState(() {
-          _textoResultado = "Melhor abastecer com gasolina";
+          _textoResultado = "Melhor abastecer com gasolina - Outro Desenvolvedor";
         });
       }else{
         setState(() {
